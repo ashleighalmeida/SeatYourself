@@ -1,8 +1,20 @@
+
+
+<nav class="fixed-nav-bar">
+	<h2> S E A T Y O U R S E L F</h2>
+</nav>
+<head></head>
+
+<div class="wide"> .. </div>
+<div class="navbar"> </div>
+
+<div class="container"> 
+
+
 <h1>Restaurants</h1>
 
 <% @restaurants.each do |restaurant| %>
 
- 
  <b> <%= link_to(restaurant.name, restaurant_path(restaurant) ) %> </b> <br>
   <%= restaurant.address %>, <%= restaurant.neighbourhood %> <br>
   <%= restaurant.category %> <br> 
@@ -11,4 +23,8 @@
   <%= restaurant.description %><br>
   <%= restaurant.timeslots %></p>
 
-  <% end %>
+<% end %>
+
+
+</body>
+</div>

@@ -1,0 +1,69 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #000000;
+  color: #d3d3d3;
+}
+
+.wide {
+  width:100%;
+  height:400px;
+  background-image:url('https://torinodiary.files.wordpress.com/2012/09/dsf2888.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+.wide  {
+  width:100%;
+}
+
+.logo {
+  color:#fff;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
+}
+
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
+
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+  opacity: 0.7;
+  filter: alpha(opacity=60); 
+}
+
+
+h2  {
+  font-family:Helvetica;
+  letter-spacing:1px;
+  color: #ffffff;
+  font-size: 15px;
+  text-indent:40px 
+}
+
+h1  {
+  font-family:Helvetica;
+  letter-spacing:1px;
+  color: #FFFFFF;
+  font-size: 17px;
+  text-transform:uppercase;
+}
+
+
+

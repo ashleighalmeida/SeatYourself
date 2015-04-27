@@ -5,3 +5,12 @@
 
   <%= @restaurant.description %><br>
   <%= @restaurant.timeslots %></p>
+
+<% if current_user %>
+
+<%= link_to "Book your reservation", new_restaurant_reservation_path(@restaurant) %>
+
+  <% else %>
+  <p>Please <%= link_to "log in", new_session_path %></p> 
+<% end %>
+
