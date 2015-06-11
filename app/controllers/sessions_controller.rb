@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  :ensure_logged_in
+  
  def new
   end
 
